@@ -1,5 +1,5 @@
 # ThingShield
-The SparkFun Thing (WRL-13231) is a board for creating Internet of Things devices based on the ESP-8266 WiFi microcontroller.  This repo contains "shield" designs in the form factor and pinout of the Thing.
+The [SparkFun Thing (WRL-13231)](https://www.sparkfun.com/products/13231) is a board for creating Internet of Things devices based on the ESP-8266 WiFi microcontroller.  This repo contains "shield" designs in the form factor and pinout of the Thing.
 
 ThingShield_Bare is a set (schematic and board) of design files that have the basic board outline and pinout.  Use this as the start of your own shield design.  I have left a voltage regulator circuit on the board for power.  The regulator is easily deleted if it does not meet your needs.
 
