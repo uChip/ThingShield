@@ -5,5 +5,7 @@ ThingShield_Bare is a set (schematic and board) of design files that have the ba
 
 ThingShield_Proto is a board with prototyping area.  Again there is a voltage regulator on the shield board.  The regulator can be omitted if your design does not need much current.  Instead you can draw power directly from the Thing board.
 
+<img src="https://github.com/uChip/ThingShield/blob/master/proto_top.png" alt="Thing Proto Board">
+
 Boards propogate the CC license of the parent SparkFun board.  No liability accepted.
 
