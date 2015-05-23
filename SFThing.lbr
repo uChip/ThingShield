@@ -131,7 +131,7 @@
 <library>
 <packages>
 <package name="SFIOT_MODULE">
-<pad name="GND$3" x="-10.16" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="GND@3" x="-10.16" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="VIN" x="-7.62" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="5" x="-5.08" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="0" x="-2.54" y="11.43" drill="1.016" diameter="1.8796"/>
@@ -141,7 +141,7 @@
 <pad name="XPD" x="7.62" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="ADC" x="10.16" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="EN" x="12.7" y="11.43" drill="1.016" diameter="1.8796"/>
-<pad name="GND$1" x="-10.16" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="GND@1" x="-10.16" y="-11.43" drill="1.016" diameter="1.8796"/>
 <pad name="3V3" x="-7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
 <pad name="SDA" x="-5.08" y="-11.43" drill="1.016" diameter="1.8796"/>
 <pad name="SCL" x="-2.54" y="-11.43" drill="1.016" diameter="1.8796"/>
@@ -150,13 +150,13 @@
 <pad name="RXI" x="5.08" y="-11.43" drill="1.016" diameter="1.8796"/>
 <pad name="VCC" x="7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
 <pad name="NC" x="10.16" y="-11.43" drill="1.016" diameter="1.8796"/>
-<pad name="GND$2" x="12.7" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="GND@2" x="12.7" y="-11.43" drill="1.016" diameter="1.8796"/>
 <wire x1="-26.67" y1="-12.954" x2="-26.67" y2="12.954" width="0.127" layer="21"/>
 <wire x1="-26.67" y1="12.954" x2="28.702" y2="12.954" width="0.127" layer="21"/>
 <wire x1="28.702" y1="12.954" x2="28.702" y2="-12.954" width="0.127" layer="21"/>
 <wire x1="28.702" y1="-12.954" x2="-26.67" y2="-12.954" width="0.127" layer="21"/>
-<circle x="-15.875" y="-10.16" radius="2.54" width="0.127" layer="51"/>
-<circle x="-15.875" y="10.16" radius="2.54" width="0.127" layer="51"/>
+<circle x="-14.605" y="-10.16" radius="2.54" width="0.127" layer="51"/>
+<circle x="-14.605" y="10.16" radius="2.54" width="0.127" layer="51"/>
 <circle x="17.145" y="-10.16" radius="2.54" width="0.127" layer="51"/>
 <circle x="17.145" y="10.16" radius="2.54" width="0.127" layer="51"/>
 <wire x1="21.59" y1="12.7" x2="21.59" y2="7.62" width="0.127" layer="51"/>
@@ -185,9 +185,9 @@
 <pin name="RXI" x="-15.24" y="5.08" visible="pin" length="short"/>
 <pin name="VCC" x="-15.24" y="2.54" visible="pin" length="short"/>
 <pin name="NC" x="-15.24" y="0" visible="pin" length="short"/>
-<pin name="GND$2" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@2" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
 <pin name="VIN" x="0" y="25.4" visible="pin" length="short" rot="R270"/>
-<pin name="GND$1" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@1" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
 <pin name="GPIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="GPIO0" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="GPIO4" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
@@ -196,7 +196,7 @@
 <pin name="XPD" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="ADC" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
 <pin name="EN" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="GND$3" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@3" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
 <pin name="GPIO2/SDA" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
 <pin name="GPIO14/SCL" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="3V3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
@@ -221,9 +221,9 @@
 <connect gate="G$1" pin="ADC" pad="ADC"/>
 <connect gate="G$1" pin="DTR" pad="DTR"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="GND$1" pad="GND$1"/>
-<connect gate="G$1" pin="GND$2" pad="GND$2"/>
-<connect gate="G$1" pin="GND$3" pad="GND$3"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
 <connect gate="G$1" pin="GPIO0" pad="0"/>
 <connect gate="G$1" pin="GPIO12" pad="12"/>
 <connect gate="G$1" pin="GPIO13" pad="13"/>
