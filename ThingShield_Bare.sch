@@ -7791,7 +7791,7 @@ Thing shield mod by C.Schnarel.</text>
 <text x="236.22" y="7.62" size="2.54" layer="94">v10</text>
 <text x="78.486" y="171.958" size="2.032" layer="97">VCC Range:
 1.7V-&gt;3.6V</text>
-<text x="20.32" y="114.3" size="2.54" layer="91">If the circuit requires little current then use 3V3.
+<text x="17.78" y="50.8" size="2.54" layer="91">If the circuit requires little current then use 3V3.
 If the circuit needs more current and is powered
  from USB or BATT connectors use PWR.
 If the circuit is powered from FTDI then use VCC.</text>
