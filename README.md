@@ -7,5 +7,7 @@ ThingShield_Proto is a board with prototyping area.  Again there is a voltage re
 
 <img src="https://github.com/uChip/ThingShield/blob/master/proto_top.png" alt="Thing Proto Board" width=376 height=205>
 
+Bare circuit boards of the proto shield can be ordered from [OSH Park](https://oshpark.com/shared_projects/OK6ncANs)
+
 Boards propogate the CC license of the parent SparkFun board.  No liability accepted.
 
